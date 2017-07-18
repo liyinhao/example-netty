@@ -4,7 +4,6 @@
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="[example][%t]%d %-5p [%c] %m%n"/>
         </Console>
-        <CatAppender name="Cat" />
         <Async name="Async" includeLocation="true">
             <AppenderRef ref="Console"/>
         </Async>
